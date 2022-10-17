@@ -100,100 +100,117 @@ const Home = () => {
 				case "1":
 					if(grid_1 === ""){
 						setgrid_1("X")
+						setPlayer_turn("O")
 					}
 					break;
 				case "2":
 					if(grid_2 === ""){
 						setgrid_2("X")
+						setPlayer_turn("O")
 					}
 					break;
 				case "3":
 					if(grid_3 === ""){
 						setgrid_3("X")
+						setPlayer_turn("O")
 					}
 					break;
 				case "4":
 					if(grid_4 === ""){
 						setgrid_4("X")
+						setPlayer_turn("O")
 					}
 					break;
 				case "5":
 					if(grid_5 === ""){
 						setgrid_5("X")
+						setPlayer_turn("O")
 					}
 					break;
 				case "6":
 					if(grid_6 === ""){
 						setgrid_6("X")
+						setPlayer_turn("O")
 					}
 					break;
 				case "7":
 					if(grid_7 === ""){
 						setgrid_7("X")
+						setPlayer_turn("O")
 					}
 					break;
 				case "8":
 					if(grid_8 === ""){
 						setgrid_8("X")
+						setPlayer_turn("O")
 					}
 					break;
 				case "9":
 					if(grid_9 === ""){
 						setgrid_9("X")
+						setPlayer_turn("O")
 					}
 					break;
 				}
-			setPlayer_turn("O")
+			
 
 		}else if(player_turn == "O"){
 			switch (num) {
 				case "1":
 					if(grid_1 === ""){
 						setgrid_1("O")
+						setPlayer_turn("X")
 					}
 					break;
 				case "2":
 					if(grid_2 === ""){
 						setgrid_2("O")
+						setPlayer_turn("X")
 					}
 					break;
 				case "3":
 					if(grid_3 === ""){
 						setgrid_3("O")
+						setPlayer_turn("X")
 					}
 					break;
 				case "4":
 					if(grid_4 === ""){
 						setgrid_4("O")
+						setPlayer_turn("X")
 					}
 					break;
 				case "5":
 					if(grid_5 === ""){
 						setgrid_5("O")
+						setPlayer_turn("X")
 					}
 					break;
 				case "6":
 					if(grid_6 === ""){
 						setgrid_6("O")
+						setPlayer_turn("X")
 					}
 					break;
 				case "7":
 					if(grid_7 === ""){
 						setgrid_7("O")
+						setPlayer_turn("X")
 					}
 					break;
 				case "8":
 					if(grid_8 === ""){
 						setgrid_8("O")
+						setPlayer_turn("X")
 					}
 					break;
 				case "9":
 					if(grid_9 === ""){
 						setgrid_9("O")
+						setPlayer_turn("X")
 					}
 					break;
 				}
-			setPlayer_turn("X")
 		}
 	}
 	useEffect(()=>{
